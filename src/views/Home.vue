@@ -5,7 +5,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import ProductList from '@/components/content/ProductList.vue';
 
 export default {

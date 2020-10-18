@@ -5,7 +5,8 @@ import { FontAwesomeIcon } from '@/plugins/font-awesome';
 import store from './store';
 import router from './router';
 
-createApp(App).use(router)
+createApp(App)
+  .use(router)
   .use(store)
   .component('fa', FontAwesomeIcon)
   .mount('#app');
