@@ -21,10 +21,10 @@
         </p>
       </div>
       <div class="absolute bottom-0 z-auto pb-2 px-3 w-full flex justify-between">
-        <button class="bg-green-600 text-white font-semibold uppercase text-sm rounded-md border-2 transition-all duration-200 ease-in-out border-green-600 px-3 py-1 hover:bg-green-700 hover:border-green-700">
+        <button class="button-text button-small">
           Find out more
         </button>
-        <button class="bg-green-600 text-white rounded-md border-2 border-green-600 px-3 py-1 hover:bg-green-700 hover:border-green-700">
+        <button class="button-icon">
           <fa
             icon="cart-plus"
             class="w-6 h-4"
