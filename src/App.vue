@@ -1,8 +1,6 @@
 <template>
   <Header />
-  <main>
-    <ProductList />
-  </main>
+  <router-view />
   <footer>
     Footer
   </footer>
@@ -10,21 +8,21 @@
 
 <script>
 import Header from '@/partials/Header';
-import ProductList from '@/components/ProductList';
-
 export default {
   name: 'App',
   components: {
-    Header,
-    ProductList
-  },
+    Header
+  }
 };
 </script>
 
 <style>
 #app {
-  min-width: 100vh;
-  min-height: 100vh;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
 }
 
 .line-clamp {
