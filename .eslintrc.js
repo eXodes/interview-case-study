@@ -17,6 +17,6 @@ module.exports = {
     'vue/max-attributes-per-line': 'error',
     quotes: ['error', 'single'],
     'vue/html-self-closing': 'off',
-    'vue/max-attributes-per-line': 1,
+    'vue/max-attributes-per-line': 0,
   },
 };
