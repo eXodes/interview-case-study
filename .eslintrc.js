@@ -14,7 +14,6 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'vue/max-attributes-per-line': 'error',
     quotes: ['error', 'single'],
     'vue/html-self-closing': 'off',
     'vue/max-attributes-per-line': 0,
