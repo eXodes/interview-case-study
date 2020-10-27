@@ -2,7 +2,7 @@
   <teleport to="body">
     <div
       v-if="show"
-      class="preface absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex z-50"
+      class="preface absolute top-0 left-0 w-screen h-screen p-4 bg-black bg-opacity-50 flex z-50"
     >
       <div class="m-auto mt-36">
         <div class="max-w-lg py-4 px-8 bg-white shadow-lg rounded-lg">

@@ -1,6 +1,6 @@
 <template>
   <li
-    class="px-3 py-2 ml-2 rounded-lg transition duration-300 ease-in-out relative"
+    class="px-3 md:px-6 py-2 ml-2 rounded-lg transition duration-300 ease-in-out relative"
   >
     <router-link to="/cart">
       <fa icon="cart-plus" class="w-6 h-6 m-auto" />
@@ -13,7 +13,7 @@
     </router-link>
   </li>
   <li
-    class="px-3 py-2 ml-2 rounded-lg transition duration-300 ease-in-out relative"
+    class="px-3 md:px-6 py-2 ml-2 rounded-lg transition duration-300 ease-in-out relative"
   >
     <button @click="logout">
       <fa icon="sign-in-alt" class="w-6 h-6" />

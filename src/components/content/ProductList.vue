@@ -1,5 +1,5 @@
 <template>
-  <main class="py-10">
+  <main class="py-10 px-4">
     <div class="container mx-auto">
       <div class="section">
         <div class="heading">
@@ -49,10 +49,18 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 1rem;
-}</style
->>
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 1440px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+</style>

@@ -32,7 +32,8 @@ body::-webkit-scrollbar {
   color: #2c3e50;
 
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto 1fr;
+  min-width: 100vw;
   min-height: 100vh;
 }
 

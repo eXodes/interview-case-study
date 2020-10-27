@@ -1,12 +1,12 @@
 <template>
   <header class="bg-primary">
-    <div class="container mx-auto py-4 flex justify-between">
-      <router-link to="/">
-        <div class="logo w-64 my-auto">
+    <div class="container mx-auto p-4 flex justify-between">
+      <router-link to="/" class="flex">
+        <div class="logo w-40 md:w-64  my-auto">
           <img src="@/assets/images/logo.png" alt="Supplycart" />
         </div>
       </router-link>
-      <div class="menu my-auto">
+      <div class="menu my-auto flex-initial">
         <ul class="flex flex-row text-white font-bold">
           <LoggedIn v-if="isLoggedIn" />
           <LoggedOut v-if="!isLoggedIn" />
