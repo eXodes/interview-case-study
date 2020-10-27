@@ -1,4 +1,10 @@
 module.exports = {
+  chainWebpack: (config) => {
+    config.plugin('html').tap((args) => {
+      args[0].title = 'Supplycart';
+      return args;
+    });
+  },
   pwa: {
     name: 'Supply Cart',
     themeColor: '#38a169',
