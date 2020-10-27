@@ -9,7 +9,7 @@
           class="block text-gray-700 text-sm font-bold mb-2"
           for="username"
         >
-          Username
+          Email
         </label>
         <input class="input" id="username" type="text" v-model="state.email" />
       </div>
